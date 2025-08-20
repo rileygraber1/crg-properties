@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRG Properties</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; color:#333; }
+    header { background:#222; color:white; padding:20px; text-align:center; }
+    header img { max-height:60px; }
+    section { padding:40px; text-align:center; }
+    .gallery { display:flex; flex-wrap:wrap; justify-content:center; gap:10px; }
+    .gallery img { width:300px; height:auto; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.2); }
+    footer { background:#222; color:white; padding:20px; text-align:center; }
+    a { color:#00aaff; }
+    form { max-width:400px; margin:20px auto; display:flex; flex-direction:column; gap:10px; }
+    input, textarea, select { padding:10px; border:1px solid #ccc; border-radius:5px; }
+    button { padding:10px; background:#00aaff; color:white; border:none; border-radius:5px; cursor:pointer; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>CRG Properties</h1>
+  <p>By Riley Graber</p>
+</header>
+
+<section>
+  <h2>About Us</h2>
+  <p>We buy houses, do remodels, and transform rooms into dream spaces. Call or email us today!</p>
+</section>
+
+<section>
+  <h2>Our Work</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/300x200.png?text=Remodel+1" alt="Remodel 1">
+    <img src="https://via.placeholder.com/300x200.png?text=Remodel+2" alt="Remodel 2">
+    <img src="https://via.placeholder.com/300x200.png?text=Remodel+3" alt="Remodel 3">
+    <img src="https://via.placeholder.com/300x200.png?text=Remodel+4" alt="Remodel 4">
+    <img src="https://via.placeholder.com/300x200.png?text=Remodel+5" alt="Remodel 5">
+  </div>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <form action="mailto:rileygraber31@gmail.com" method="POST" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <select name="service">
+      <option value="sell">Sell My House</option>
+      <option value="remodel">Remodel My Home</option>
+      <option value="room">Remodel Specific Room</option>
+    </select>
+    <textarea name="message" rows="5" placeholder="Tell us about your project"></textarea>
+    <button type="submit">Send</button>
+  </form>
+  <p>Phone: <a href="tel:5076490028">507-649-0028</a></p>
+  <p>Email: <a href="mailto:rileygraber31@gmail.com">rileygraber31@gmail.com</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 CRG Properties</p>
+</footer>
+
+</body>
+</html>
